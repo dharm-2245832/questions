@@ -1,5 +1,5 @@
 ## Suresh Gyan Vihar University  
-**End Semester Examination December 2023**  
+**End Semester Examination December 2024**  
 **B.Tech CSE-V Semester**  
 **Database Management Systems (CP - 301)**
 
