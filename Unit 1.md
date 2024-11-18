@@ -75,7 +75,7 @@
 ---
 
 ### **Topic 1:What is DBMS?**  
-**DBMS (Database Management System)** is software that helps us store, organize, retrieve, and manage data in a structured way. Instead of manually handling large amounts of data, DBMS makes it easy to manage it efficiently. Examples include MySQL, Oracle, and Microsoft Access.
+**DBMS (Database Management System)** is software that helps us store, organize, retrieve, and manage data in a structured way. Instead of manually handling large amounts of data, DBMS makes it easy to manage it efficiently. Examples include `MySQL`, `Oracle`, and `Microsoft Access`.
 
 ### **Topic 2:Why Do We Use DBMS?**  
 1. **Organized Data Storage**: It stores data systematically so we can easily find and use it.  
@@ -119,15 +119,15 @@ Database languages are used to interact with a DBMS. These languages let users d
 - DDL is used to **define the structure** of the database (like tables, indexes, etc.).  
 - Think of it as setting up the "skeleton" of the database.  
 - Common DDL Commands:
-  - **CREATE**: Creates a database object (like tables or views).  
+  - **`CREATE`**: Creates a database object (like tables or views).  
     *Example*: Create a table to store student data.  
-  - **ALTER**: Modifies the structure of an existing database object.  
+  - **`ALTER`**: Modifies the structure of an existing database object.  
     *Example*: Add a new column for student phone numbers.  
-  - **DROP**: Deletes an object from the database.  
+  - **`DROP`**: Deletes an object from the database.  
     *Example*: Remove a table that's no longer needed.  
-  - **TRUNCATE**: Deletes all records in a table but keeps the structure.  
-  - **RENAME**: Renames database objects.  
-  - **COMMENT**: Adds comments to the data dictionary for better understanding.
+  - **`TRUNCATE`**: Deletes all records in a table but keeps the structure.  
+  - **`RENAME`**: Renames database objects.  
+  - **`COMMENT`**: Adds comments to the data dictionary for better understanding.
 
 ---
 
@@ -135,15 +135,15 @@ Database languages are used to interact with a DBMS. These languages let users d
 - DML is used to **manipulate the data** within the database.  
 - Think of it as editing or fetching data from tables.  
 - Common DML Commands:
-  - **SELECT**: Fetches data from a database without modifying it.  
+  - **`SELECT`**: Fetches data from a database without modifying it.  
     *Example*: View all students enrolled in a course.  
-  - **INSERT**: Adds new records to a table.  
+  - **`INSERT`**: Adds new records to a table.  
     *Example*: Add a new student to the database.  
-  - **UPDATE**: Changes existing data in a table.  
+  - **`UPDATE`**: Changes existing data in a table.  
     *Example*: Update a student's address.  
-  - **DELETE**: Removes records from a table.  
+  - **`DELETE`**: Removes records from a table.  
     *Example*: Remove a student who has graduated.  
-  - **MERGE**: Combines INSERT and UPDATE operations (UPSERT).
+  - **`MERGE`**: Combines INSERT and UPDATE operations (UPSERT).
 
 ---
 
@@ -151,9 +151,9 @@ Database languages are used to interact with a DBMS. These languages let users d
 - DCL is used to **control access to the database**.  
 - Think of it as managing permissions for users.  
 - Common DCL Commands:
-  - **GRANT**: Gives a user permission to perform specific tasks (like SELECT or INSERT).  
+  - **`GRANT`**: Gives a user permission to perform specific tasks (like SELECT or INSERT).  
     *Example*: Allow a teacher to view student data.  
-  - **REVOKE**: Removes permissions from a user.  
+  - **`REVOKE`**: Removes permissions from a user.  
     *Example*: Deny access to modify financial records.
 
 ---
@@ -162,11 +162,11 @@ Database languages are used to interact with a DBMS. These languages let users d
 - TCL manages **transactions** in the database.  
 - Think of a transaction as a group of operations that must be treated as a single unit (like transferring money).  
 - Common TCL Commands:
-  - **COMMIT**: Saves changes permanently.  
+  - **`COMMIT`**: Saves changes permanently.  
     *Example*: Finalize a money transfer.  
-  - **ROLLBACK**: Reverts changes made during a transaction.  
+  - **`ROLLBACK`**: Reverts changes made during a transaction.  
     *Example*: Cancel a failed transaction.  
-  - **SAVEPOINT**: Creates a temporary checkpoint in a transaction.  
+  - **`SAVEPOINT`**: Creates a temporary checkpoint in a transaction.  
     *Example*: Save progress before a complex update.
 
 ---
@@ -174,7 +174,7 @@ Database languages are used to interact with a DBMS. These languages let users d
 #### **5. Data Query Language (DQL)**  
 - DQL is a subset of DML focused solely on **fetching data**.  
 - The main command in DQL is:
-  - **SELECT**: Retrieves data from the database.  
+  - **`SELECT`**: Retrieves data from the database.  
     *Example*: Find all students who scored above 90%.
 
 ---
@@ -598,7 +598,7 @@ Transaction schedule ka matlab hai transactions ke execute hone ka order. Jab ek
 - **Definition:** Isme multiple transactions ek saath execute hoti hain, ya ek transaction complete hone ke pehle hi doosri start ho jati hai.  
 - **Efficiency:** Waiting time kam hota hai aur system ka throughput improve hota hai.  
 - **Issue:** Inconsistency ka risk hota hai, agar proper concurrency control na ho.  
-- **Example:**  
+- **Example:** 
   ``` 
   T1: Read A, Update A
   T2: Read B, Update B
